@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+.footer {
+    display: flex;
+    padding: 10px 20px;
+    background-color: #009040;
+    align-items: center;
+    border: none;
+    box-shadow: none;
+    position: relative;
+    height: 50px;
+}
+
+.get-in-touch {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    /* position: absolute; */
+    /* transform: translate(-50%, -50%); */
+    font-size: 15px;
+    /* font-weight: bold; */
+    color: white;
+    font-family: "Jost", sans-serif;
+}
+
+.email{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.email-text{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    font-size: small;
+    margin-top: 3px;
+    font-family: "Jost", sans-serif;
+}
+
+.copyright {
+    margin-left: auto; /* Pushes the copyright text to the far right */
+    font-size: 12px;
+    color: white;
+    font-family: "Jost", sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+.copyright-icon{
+    padding: 3px;
+}
+

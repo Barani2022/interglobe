@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+.about-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.about-heading {
+    color: #009040; 
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family: "Jost", sans-serif;
+}
+
+.about-description {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-family: "Jost", sans-serif;
+}
+
+.about-subheading {
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: black;
+    font-family: "Jost", sans-serif; /* Green color for the subheading */
+}
+
+.about-list {
+    /* margin-left: 20px; */
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    list-style-type: disc; /* Add bullet points */
+    padding-left: 20px;
+    font-family: "Jost", sans-serif; /* Adjust spacing for bullets */
+}
+
+.about-list li {
+    margin-bottom: 10px;
+    font-family: "Jost", sans-serif;
+}
+
+.about-description2 {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    /* margin-bottom: 20px; */
+    font-family: "Jost", sans-serif;
+}

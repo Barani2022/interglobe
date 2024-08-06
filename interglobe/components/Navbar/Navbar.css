@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white; /* Ensure the body has a solid white background */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: #009040;
+    border: none;
+    box-shadow: none;
+    position: sticky; /* Make the navbar sticky */
+    top: 0; /* Stick to the top of the viewport */
+    z-index: 1000;
+    height: 70px;
+}
+
+.navbar-logo {
+    width: auto; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.navbar-logo img {
+    width: 230px; /* Make the image fill the container */
+    height: 100px !important; /* Maintain aspect ratio */
+}
+
+.navbar-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-links li {
+    display: inline;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+    font-family: "Jost", sans-serif;
+}
+
+.navbar-links a:hover {
+    color: #ddd;
+}

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+.hero-section {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero-image {
+    width: 100%; /* Keep the width at 100% of its container */
+    height: 530px; /* Set a fixed height, adjust this value as needed */
+    object-fit: cover; /* Ensures the image covers the area, cropping if necessary */
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    font-weight: bold;
+    color: #0e0d0d;
+    font-family: "Jost", sans-serif;
+}
